@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="niewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Movies</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" href="images/icon1.jpeg" />
+    <!--using font for search-->
+    <link rel="stylesheet" href="CSS/font-awesome-4.7.0/css/font-awesome.css">
+    <!--swiper-->
+
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="movie-list">
+        <div class="movie">Five Feet Apart</div>
+        <div class="movie">Black Panther</div>
+        <div class="movie">Lion King</div>
+        <div class="movie">Sonic</div>
+      </div>
+    
+    <!--menu_btn-->
+    <nav class="navigation">
+       
+        <!--logo-->
+        <a href="MovieWebsite.html" class="logo">
+            AI Movies
+        </a>
+        <!--menu-->
+        <ul class="menu">
+            <li><a href="MovieWebsite.html">Home</a></li>
+            <li><a href="Categories.html">Category</a></li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="review.html">Review</a></li>
+
+        </ul>
+        <!--search box-->
+        <script src="js/searchfunction.js"></script>
+
+        <form class="search-box-x" onsubmit="searchMovies(event)">
+            <input type="text" name="search" placeholder="Search Movie" class="search" style="margin-right:12px;">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+    </nav>
+
+
+    <section id="main-slider">
+        <!--copied from google -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!--1-->
+                <div class="swiper-slide">
+                    <div class="main-slider-box">
+
+                        <a href="#" class="main-slider-overlay">
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <div class="main-slider-img">
+                            <img src="images/tmp_W10gdS_35978e81b8840468_unnamed_9_.webp" alt="Poster" />
+                        </div>
+                        <div class="main-slider-text">
+                            <span class="Coming-soon">
+                                Coming Soon!
+                            </span>
+                            <div class="bottom-text">
+                                <div class="movie-name">
+                                    <strong> 2023 Fast X</strong>
+                                </div>
+                                <div class="category-rating">
+                                    <div class="category">
+                                        <a href="Action.html">Action</a>,<a href="#">Adventure</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                  <!--2-->
+                  <div class="swiper-slide">
+                    <div class="main-slider-box">
+
+                        <a href="Sonic.html" class="main-slider-overlay">
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <div class="main-slider-img">
+                            <img src="images/Sonic-the-Hedgehog-2.jpg" alt="Poster" />
+                        </div>
+                        <div class="main-slider-text">
+                            <span class="Coming-soon">
+                                Full HD
+                            </span>
+                            <div class="bottom-text">
+                                <div class="movie-name">
+                                    <strong> Sonic the Hedgehog 2 (2022)
+                                    </strong>
+                                </div>
+                                <div class="category-rating">
+                                    <div class="category">
+                                        <a href="Cartoon.html">Cartoon</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                  <!--3-->
+                  <div class="swiper-slide">
+                    <div class="main-slider-box">
+
+                        <a href="#" class="main-slider-overlay">
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <div class="main-slider-img">
+                            <img src="images/Siccin-5.jpg" alt="Poster" />
+                        </div>
+                        <div class="main-slider-text">
+                            <span class="Coming-soon">
+                                Full HD
+                            </span>
+                            <div class="bottom-text">
+                                <div class="movie-name">
+                                    <strong> Siccin 5 ( 2018 )
+                                    </strong>
+                                </div>
+                                <div class="category-rating">
+                                    <div class="category">
+                                        <a href="#">Horror</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                  <!--4-->
+                <div class="swiper-slide">
+                    <div class="main-slider-box">
+
+                        <a href="Black-Panther.html" class="main-slider-overlay">
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <div class="main-slider-img">
+                            <img src="images/Black-Panther-Wakanda-Forever.jpg" alt="Poster" />
+                        </div>
+                        <div class="main-slider-text">
+                            <span class="Coming-soon">
+                                Full HD
+                            </span>
+                            <div class="bottom-text">
+                                <div class="movie-name">
+                                    <strong> Black Panther: Wakanda Forever ( 2022 )
+                                    </strong>
+                                </div>
+                                <div class="category-rating">
+                                    <div class="category">
+                                      <a href="adventure.html">Adventure</a>,<a href="#">Science Fiction</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                  <!--5-->
+                  <div class="swiper-slide">
+                    <div class="main-slider-box">
+
+                        <a href="five feet apart.html" class="main-slider-overlay">
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <div class="main-slider-img">
+                            <img src="images/fivefeetapart.jpg" alt="Poster" />
+                        </div>
+                        <div class="main-slider-text">
+                            <span class="Coming-soon">
+                                Full HD
+                            </span>
+                            <div class="bottom-text">
+                                <div class="movie-name">
+                                    <strong> Five Feet Apart ( 2019 )
+                                    </strong>
+                                </div>
+                                <div class="category-rating">
+                                    <div class="category">
+                                        <a href="#">Romantic</a>,<a href="#">Drama</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                  <!--6-->
+                  <div class="swiper-slide">
+                    <div class="main-slider-box">
+
+                        <a href="worldwarz.html" class="main-slider-overlay">
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <div class="main-slider-img">
+                            <img src="images/World-War-Z.jpg" alt="Poster" />
+                        </div>
+                        <div class="main-slider-text">
+                            <span class="Coming-soon">
+                                Full HD
+                            </span>
+                            <div class="bottom-text">
+                                <div class="movie-name">
+                                    <strong> World War Z ( 2013 )
+                                    </strong>
+                                </div>
+                                <div class="category-rating">
+                                    <div class="category">
+                                        <a href="war.html">War</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+    </section>
+    <div class="slider-btns">
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>   
+    </div>
+    <!--latest movies-->
+    <section id="Most-Watched-Movies">
+        <div class="most-watched-heading">
+            <h1>Most watched Movies</h1>
+        </div>
+        <div class="post-container">
+            <div class="post-box">
+
+                 <div class="post-img">
+                    <img src="images/wolrdwarzzzzz.jpg" alt=""/>
+                 </div>
+                 <div class="main-slider-text">
+                    <span class="Coming-soon">
+                        Full HD
+                    </span>
+                    <div class="bottom-text">
+                        <div class="movie-name">
+                            <a href="#"> World War Z (2013)</a>
+                        </div>
+                        <div class="category-rating">
+                            <div class="category">
+                                <a href="war.html">War</a>
+                            </div>
+                            <div class="rating">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-box">
+
+                <div class="post-img">
+                   <img src="images/Black-Panther-Wakanda-Forever.jpg" alt=""/>
+                </div>
+                <div class="main-slider-text">
+                   <span class="Coming-soon">
+                       Full HD
+                   </span>
+                   <div class="bottom-text">
+                       <div class="movie-name">
+                           <a href="Black-Panther.html">Black Panther: Wakanda Forever (2022)</a>
+                       </div>
+                       <div class="category-rating">
+                           <div class="category">
+                               <a href="#">Adventure</a>,<a href="#">Science Fiction</a>
+                           </div>
+                           <div class="rating">
+                               <span class="fa fa-star checked"></span>
+                               <span class="fa fa-star checked"></span>
+                               <span class="fa fa-star checked"></span>
+                               <span class="fa fa-star checked"></span>
+                               <span class="fa fa-star checked"></span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="post-box">
+
+            <div class="post-img">
+               <img src="images/fivefeetapart.jpg" alt=""/>
+            </div>
+            <div class="main-slider-text">
+               <span class="Coming-soon">
+                   Full HD
+               </span>
+               <div class="bottom-text">
+                   <div class="movie-name">
+                       <a href="five feet apart.html"> Five Feet Apart(2019)</a>
+                   </div>
+                   <div class="category-rating">
+                       <div class="category">
+                           <a href="Romantic.html">Romantic</a>
+                       </div>
+                       <div class="rating">
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star checked"></span>
+                           <span class="fa fa-star"></span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="post-box">
+
+        <div class="post-img">
+           <img src="images/Siccin-5.jpg" alt=""/>
+        </div>
+        <div class="main-slider-text">
+           <span class="Coming-soon">
+               Full HD
+           </span>
+           <div class="bottom-text">
+               <div class="movie-name">
+                   <a href="Lion King.html"> The Lion King</a>
+               </div>
+               <div class="category-rating">
+                   <div class="category">
+                       <a href="Cartoon.html">Cartoon</a>
+                   </div>
+                   <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="post-box">
+
+    <div class="post-img">
+       <img src="images/jumanjiiiiii.jpg" alt=""/>
+    </div>
+    <div class="main-slider-text">
+       <span class="Coming-soon">
+           HD CAM
+       </span>
+       <div class="bottom-text">
+           <div class="movie-name">
+               <a href="jumanji.html">Jumanji: Welcome to The jungle( 2017 )            </a>
+           </div>
+           <div class="category-rating">
+               <div class="category">
+                   <a href="adventure.html">Adventure</a>
+               </div>
+               <div class="rating">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star"></span>
+                   <span class="fa fa-star"></span>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+<div class="post-box">
+
+    <div class="post-img">
+       <img src="images/Spider-Man-No-Way-Home.jpg" alt=""/>
+    </div>
+    <div class="main-slider-text">
+       <span class="Coming-soon">
+           Full HD
+       </span>
+       <div class="bottom-text">
+           <div class="movie-name">
+               <a href="spiderman.html"> Spider-Man: No Way Home (2021)
+                </a>
+           </div>
+           <div class="category-rating">
+               <div class="category">
+                   <a href="Action.html">Action</a>
+               </div>
+               <div class="rating">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+<div class="post-box">
+
+    <div class="post-img">
+       <img src="images/The-Lion-King.jpg" alt=""/>
+    </div>
+    <div class="main-slider-text">
+       <span class="Coming-soon">
+            720P
+       </span>
+       <div class="bottom-text">
+           <div class="movie-name">
+               <a href="Lion King.html">The Lion King ( 2019 )
+            </a>
+           </div>
+           <div class="category-rating">
+               <div class="category">
+                   <a href="Cartoon.html">Cartoon</a>,<a href="#">Family</a>
+               </div>
+               <div class="rating">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star"></span>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+<div class="post-box">
+
+    <div class="post-img">
+       <img src="images/murdermyster2.jpg" alt=""/>
+    </div>
+    <div class="main-slider-text">
+       <span class="Coming-soon">
+           Full HD
+       </span>
+       <div class="bottom-text">
+           <div class="movie-name">
+               <a href="murdermystery.html"> Murder Mystery 2( 2023 )
+            </a>
+           </div>
+           <div class="category-rating">
+               <div class="category">
+                   <a href="comedy.html">Comedy</a>
+               </div>
+               <div class="rating">
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star"></span>
+                   <span class="fa fa-star"></span>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+   </div>
+</div>
+        </div>
+    </section>
+   
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay :{
+                delay:2000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+        $(window).scroll(function(){
+           if($(document).scrollTop>20){
+            $('.navigation').addClass('fix-icon');
+           }else {
+            $('.navigation').removeClass('fix-icon');
+           }
+        });
+    </script>
+     <footer>
+        <section class="social-media">
+            <ul>
+                <li><a href="https://www.instagram.com/moviewebsite"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/moviewebsite"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+        </section>
+        <p class="foot">&copy; 2023 Movie Website , All rights Reserved</p>
+    </footer>
+
+
+</body>
+
+</html>

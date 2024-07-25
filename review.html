@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="niewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Review</title>
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" href="images/icon1.jpeg" />
+
+    <!--using font for search-->
+    <link rel="stylesheet" href="CSS/font-awesome-4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+    <nav class="navigationn">
+        
+        <!--logo-->
+        <a href="MovieWebsite.html" class="logo">
+            AI Movies
+        </a>
+        <!--menu-->
+        <ul class="menu">
+            <li><a href="MovieWebsite.html">Home</a></li>
+            <li><a href="Categories.html">Category</a></li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="review.html">Review</a></li>
+
+        </ul>
+        <!--search box-->
+        <script src="js/searchfunction.js"></script>
+
+        <form class="search-box" onsubmit="searchMovies(event)">
+            <input type="text" name="search" placeholder="Search Movie" class="search" style="margin-right:12px;">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+    </nav>
+
+
+
+
+
+
+    <section class="Review">
+        <h2 class="section-heading">Review</h2>
+    </section>
+
+    <div class="container">
+
+
+        <form>
+
+            <label for="fname" >Enter First name:</label><br>
+            <input type="text" id="fname" name="fname" required style="width: 450px;"><br>
+    
+            <label for="lname">Enter Last Name:</label><br>
+            <input type="text" id="lname" name="lname" required style="width: 450px;"><br>
+    
+            <label for="comment">Enter Comment:</label><br>
+            <input type="text" id="comment" name="comment" required style="width: 450px;"><br>
+            
+            <label for="movietxt">Enter Movie Name:</label><br>
+            <select name="movietxt" id="movietxt" required style="width: 450px;">
+                <option value="The Lion King">The Lion King</option>
+                <option value="Angel Has Fallen">Angel Has Fallen</option>
+                <option value="Five Feet Apart">Five Feet Apart</option>
+                <option value="Murder Mystery">Murder Mystery</option>
+                <option value="Spider Man No Way Home">Spider Man No Way Home</option>
+                <option value="Sonic">Sonic</option>
+                <option value="The Kissing Booth">The Kissing Booth</option>
+                
+              </select><br>
+    
+            <label for="movietxt">Enter user photo:</label><br>
+            <input type="file" id="src" required style="width: 450px;"><br><br><br>
+    
+            <button type="submit" id="submit">submit</button>
+    
+            
+    
+            </form>
+
+        
+    </div>
+
+   
+
+    <script src="review.js"></script>
+
+
+    
+</body>
+
+
+</html>

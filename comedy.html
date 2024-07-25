@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="niewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comedy Movies</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" href="images/icon1.jpeg" />
+    <!--using font for search-->
+    <link rel="stylesheet" href="CSS/font-awesome-4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+    <nav class="navigationn">
+        
+        <!--logo-->
+        <a href="MovieWebsite.html" class="logo">
+            AI Movies
+        </a>
+        <!--menu-->
+        <ul class="menu">
+            <li><a href="MovieWebsite.html">Home</a></li>
+            <li><a href="Categories.html">Category</a></li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="review.html">Review</a></li>
+
+        </ul>
+        <!--search box-->
+        <script src="js/searchfunction.js"></script>
+
+        <form class="search-box" onsubmit="searchMovies(event)">
+            <input type="text" name="search" placeholder="Search Movie" class="search" style="margin-right:12px;">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+    </nav>
+    <section class="categories">
+        <h2 class="section-heading">Comedy</h2>
+        <div class="post-container">
+            <div class="post-box">
+
+                <div class="post-img">
+                   <img src="images/murdermyster2.jpg" alt=""/>
+                </div>
+                <div class="main-slider-text">
+                   <span class="Coming-soon">
+                        720P
+                   </span>
+                   <div class="bottom-text">
+                       <div class="movie-name">
+                           <a href="murdermystery.html">Murder Mystery 2( 2023 )
+                        </a>
+                       </div>
+                       <div class="category-rating">
+                           <div class="category">
+                               <a href="comedy.html">Comedy</a>
+                           </div>
+                           <div class="rating">
+                               <span class="fa fa-star checked"></span>
+                               <span class="fa fa-star checked"></span>
+                               <span class="fa fa-star checked"></span>
+                               <span class="fa fa-star "></span>
+                               <span class="fa fa-star"></span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+            </div>
+    </section>
+    <footer>
+        <section class="social-media">
+            <ul>
+                <li><a href="https://www.instagram.com/moviewebsite"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/moviewebsite"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+        </section>
+        <p class="foot">&copy; 2023 Movie Website , All rights Reserved</p>
+    </footer>
+
+</body>
+</html>
